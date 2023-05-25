@@ -1,0 +1,19 @@
+
+.navbar_container{
+    background-color: black;
+    text-decoration: none;
+
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    list-style: none;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+         
+}
+
+
