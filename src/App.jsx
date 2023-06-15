@@ -1,37 +1,32 @@
-
-import { useState } from "react";
-import Header from "./componentes/layout/Header/Header";
-import Navbar from "./componentes/layout/Navbar/Navbar";
+//import GridComponent from "./componentes/common/gridComponent/GridComponent";
+import CartWidget from "./componentes/common/cartWidget/CartWidget";
+import Form from "./componentes/common/cartWidget/Form/Form";
+import Layout from "./componentes/layout/Layout";
 import ItemListContainer from "./componentes/pages/itemListContainer/ItemListContainer";
+import ItemDetailContainer from "./componentes/pages/productDetail/ItemDetailContainer";
 
-
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  //logica
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/perfumes/:itemName" element={<ItemListContainer />} />
+          <Route
+            path="/maquillajes/:itemName"
+            element={<ItemListContainer />}
+          />
+          <Route path="/unias/:itemName" element={<ItemListContainer />} />
+          <Route path="/itemDetail/:id" element={<ItemDetailContainer />} />
+          <Route path="/cart" element={<CartWidget />} />
+          <Route path="/form" element={<Form />}></Route>
+        </Route>
 
-  //const [montado, setMontado] = useState(false);
-
-  //JSX
-  return(
-    
-
-    <div> 
-      <Header/>
-      <Navbar/>
-      <ItemListContainer greating={"Bienvenidos!!!"}/>
-      {/* {
-        montado && <ItemListContainer/>
-      }
-      <button>Montar Componente</button> */}
-      
-      
-
-    </div>
-    
-
-
-
-  )
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

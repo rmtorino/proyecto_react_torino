@@ -5,6 +5,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.header a {
+  text-decoration: none;
+  color: black;
+}
 .header_name {
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;

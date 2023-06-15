@@ -1,12 +1,26 @@
-
-/*
-
-const Footer = () => {
+import { Typography } from "@mui/material";
+import "./Footer.css";
+const Footer = ({ items }) => {
   return (
-    <h1 style={{color: "red", backgroundColor: "yellow"}}>Este es el Footer</h1> // los etilos se escriben como camelCase y no con "-"
-  ) 
-}
+    <div>
+      <div className="footer">
+        {items.map((item) => {
+          return (
+            <div className="card_footer" key={item.id}>
+              <img src={item.img} alt="" />
+              <Typography variant="body2" color="text.secondary">
+                {item.description}
+              </Typography>
+            </div>
+          );
+        })}
+      </div>
+      <div className="footer_2"></div>
+      <div className="footer_3">
+        <h1>RICARDO TORINO</h1>
+      </div>
+    </div>
+  );
+};
 
-export default Footer
-
-*/
+export default Footer;

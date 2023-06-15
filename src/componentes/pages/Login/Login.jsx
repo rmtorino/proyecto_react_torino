@@ -1,5 +1,15 @@
 //import { AiOutlineUser } from "react-icons/ai";
-import { TextField, Button, Box } from "@mui/material";
+import { VisibilityOff, Visibility } from "@mui/icons-material";
+import {
+  TextField,
+  Button,
+  Box,
+  FormControl,
+  InputLabel,
+  OutlinedInput,
+  InputAdornment,
+  IconButton,
+} from "@mui/material";
 import { useState } from "react";
 
 const Login = () => {
@@ -14,17 +24,37 @@ const Login = () => {
         color="secondary"
         size="small"
       />
-      <TextField
+      {/* <TextField
         id="outlined-basic"
         label="Contraseña"
         variant="outlined"
         color="secondary"
         size="small"
         type={showPassword ? "text" : "password"}
-      />
-      <Button onClick={() => setshowPassword(!showPassword)}>
-        Ver Contaseña
-      </Button>
+      /> */}
+
+      <FormControl sx={{ m: 1, width: "25ch" }} variant="outlined">
+        <InputLabel htmlFor="outlined-adornment-password">
+          Comtraseña
+        </InputLabel>
+        <OutlinedInput
+          id="outlined-adornment-password"
+          type={showPassword ? "text" : "password"}
+          endAdornment={
+            <InputAdornment position="end">
+              <IconButton
+                aria-label="toggle password visibility"
+                onClick={() => setshowPassword(!showPassword)}
+                edge="end"
+              >
+                {showPassword ? <VisibilityOff /> : <Visibility />}
+              </IconButton>
+            </InputAdornment>
+          }
+          label="Password"
+        />
+      </FormControl>
+
       <Button variant="contained">Ingresar</Button>
 
       {/* <AiOutlineUser size = "30"/> */}

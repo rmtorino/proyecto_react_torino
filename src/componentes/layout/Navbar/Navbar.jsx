@@ -1,25 +1,20 @@
-
-import "./NavBar.css"
-
+import { Link } from "react-router-dom";
+import "./NavBar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar_container">
-      
-      <ul className="navbar">
-        
-        <li>INICIO</li>
-        <li>PERFUMES</li>
-        <li>MAQUILLAJES</li>
-        <li>UÑAS</li>
-        <li>CONTACTO</li>
-        
-      </ul>
-      
+    <>
+      <div>
+        <ul className="navbar">
+          <Link to="/">INICIO</Link>
+          <Link to="/perfumes/perfumes">PERFUMES</Link>
+          <Link to="/maquillajes/maquillajes">MAQUILLAJES</Link>
+          <Link to="/unias/unias">UÑAS</Link>
+          <Link>CONTACTO</Link>
+        </ul>
+      </div>
+    </>
+  );
+};
 
-
-    </div>
-  )
-}
-
-export default Navbar
+export default Navbar;

@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Perfume Carolina Herrera",
+      "description": "Eau de Toiilete 100 ml",
+      "price": 10500,
+      "stock": 10,
+      "img": "https://juleriaque.vtexassets.com/arquivos/ids/201160-800-auto?v=638085412209500000&width=800&height=auto&aspect=true",
+      "categoria": "mujer"
+    },
+    {
+      "id": 2,
+      "title": "Perfume Invictus",
+      "description": "Eau de Toiilete 100 ml",
+      "price": 8500,
+      "stock": 10,
+      "img": "https://juleriaque.vtexassets.com/arquivos/ids/201105-800-auto?v=638085411810900000&width=800&height=auto&aspect=true",
+      "categoria": "hombre"
+    },
+    {
+      "id": 3,
+      "title": "Perfume Good Girl",
+      "description": "Eau de Toiilete 50 ml",
+      "price": 9500,
+      "stock": 10,
+      "img": "https://juleriaque.vtexassets.com/arquivos/ids/201514-800-auto?v=638085739625570000&width=800&height=auto&aspect=true",
+      "categoria": "mujer"
+    },
+    {
+      "id": 4,
+      "title": "Perfume Hugo Boss",
+      "description": "Eau de Toiilete 50 ml",
+      "price": 7500,
+      "stock": 10,
+      "img": "https://juleriaque.vtexassets.com/arquivos/ids/202495-800-auto?v=638085746630530000&width=800&height=auto&aspect=true",
+      "categoria": "hombre"
+    }
+  ]
+}

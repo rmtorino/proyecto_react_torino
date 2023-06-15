@@ -1,0 +1,50 @@
+h2 {
+  display: flex;
+  justify-content: center;
+}
+.iconGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.sumar {
+  background-color: white;
+  border-color: rgb(94, 94, 245);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 50px;
+  height: 30px;
+  color: rgb(94, 94, 245);
+}
+.restar {
+  background-color: white;
+  border-color: rgb(94, 94, 245);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 50px;
+  height: 30px;
+  color: rgb(94, 94, 245);
+}
+.contador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(94, 94, 245);
+  height: 30px;
+  width: 30px;
+}
+.vaciarIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.vaciar {
+  background-color: white;
+  border-color: rgb(94, 94, 245);
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+}
