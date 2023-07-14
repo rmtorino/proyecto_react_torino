@@ -32,11 +32,11 @@ export const footerSocialMedia = [
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1689376157/logo_instagram_vr61qo.jpg",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1689376157/logo_whatsapp_szoyqt.jpg",
   },
   {
-    id: 1,
+    id: 3,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1689376157/logo_facebook_tyoajy.jpg",
   },
 ];
