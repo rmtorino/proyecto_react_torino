@@ -4,6 +4,8 @@ import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./Header.css";
+import { useContext } from "react";
+import { CartContext } from "../../../context/CartContext";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -15,6 +17,8 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 }));
 
 const Header = () => {
+  const { getTotalItems } = useContext(CartContext);
+  let totalItems = getTotalItems();
   return (
     <div className="header">
       <Link to="/">
@@ -24,7 +28,7 @@ const Header = () => {
       <div className="header_menu">
         <Link to="/cart">
           <IconButton aria-label="cart">
-            <StyledBadge badgeContent={1} color="secondary">
+            <StyledBadge badgeContent={totalItems} showZero color="secondary">
               <ShoppingCartIcon />
             </StyledBadge>
           </IconButton>

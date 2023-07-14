@@ -3,7 +3,7 @@ import useCount from "../../hooks/useCount";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 
-const Counter = ({ initial, stock, onAdd }) => {
+const Counter = ({ initial = 1, stock, onAdd }) => {
   const { count, decrement, increment } = useCount(initial, stock);
 
   return (

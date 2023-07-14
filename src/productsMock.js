@@ -1,14 +1,16 @@
 export const products = [
+  ///COlECCIONES
   {
+    /// DOCUMENTOS
     id: 1,
     brand: "LANCOME",
     title: "LA VIDA ES BELLA",
     subTitle: "EAU DE TOILETTE 100 ML",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 10500,
+    price: 10500,
     stock: 10,
-    img: "https://juleriaque.vtexassets.com/arquivos/ids/201480/la-vie-est-belle-edp-6580834A54130DB06CB5531233526EC2.jpg?v=1773116301",
+    img: "https://res.cloudinary.com/defldhv32/image/upload/v1688593472/217827-800-auto_afrnx5.jpg",
     alt: "perfume_image",
     category: "perfumes",
     sub_category: "mujer",
@@ -20,9 +22,9 @@ export const products = [
     subTitle: "EAU DE TOILETTE 100 ML",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 8500,
+    price: 8500,
     stock: 10,
-    img: "https://juleriaque.vtexassets.com/arquivos/ids/202787-500-auto?v=1773137620&width=500&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/defldhv32/image/upload/v1688593352/202787-500-auto_jn70jl.jpg",
     alt: "perfume_image",
     category: "perfumes",
     sub_category: "hombre",
@@ -34,9 +36,9 @@ export const products = [
     subTitle: "EAU DE TOILETTE 100 ML",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 9500,
+    price: 9500,
     stock: 10,
-    img: "https://juleriaque.vtexassets.com/arquivos/ids/201289-500-auto?v=1773144230&width=500&height=auto&aspect=true",
+    img: "https://res.cloudinary.com/defldhv32/image/upload/v1688593302/201289-500-auto_udz0ot.jpg",
     alt: "perfume_image",
     category: "perfumes",
     sub_category: "mujer",
@@ -48,9 +50,9 @@ export const products = [
     subTitle: "EAU DE TOILETTE 100 ML",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 17500,
+    price: 17500,
     stock: 10,
-    img: "https://juleriaque.vtexassets.com/arquivos/ids/202176/bad-boy-edt-BEB3ABC93246F4D4607402FEBF7F4973.jpg?v=1773120894",
+    img: "https://res.cloudinary.com/defldhv32/image/upload/v1688593240/bad-boy-edt-BEB3ABC93246F4D4607402FEBF7F4973_vpw6p3.jpg",
     alt: "perfume_image",
     category: "perfumes",
     sub_category: "hombre",
@@ -62,7 +64,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 3000,
+    price: 3000,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686761760/maquillajes_sombras3_qmnz1j.webp",
     alt: "makeup_image",
@@ -76,7 +78,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 4500,
+    price: 4500,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686761760/maquillajes_base1_wgiza3.webp",
     alt: "makeup_image",
@@ -90,7 +92,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 7500,
+    price: 7500,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686761760/maquillajes_rimmel2_cunkcw.webp",
     alt: "makeup_image",
@@ -104,7 +106,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 3200,
+    price: 3200,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686761809/maquillajes_labial2_jk4viy.webp",
     alt: "makeup_image",
@@ -118,7 +120,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 2500,
+    price: 2500,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/meline4_e8ir6u.jpg",
     alt: "nail_image",
@@ -132,7 +134,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 7500,
+    price: 7500,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/acrilicas2_zqhk3i.png",
     alt: "nail _image",
@@ -146,7 +148,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 3000,
+    price: 3000,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/gel3_hqb7xe.jpg",
     alt: "nail_image",
@@ -160,7 +162,7 @@ export const products = [
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
-    price: "$" + 4500,
+    price: 4500,
     stock: 10,
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/removedor4_lyowkn.jpg",
     alt: "nail_image",

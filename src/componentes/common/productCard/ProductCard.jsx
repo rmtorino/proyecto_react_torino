@@ -23,10 +23,10 @@ const ProductCard = ({ element }) => {
             {element.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {element.subTitle}
+            {element.subtitle}
           </Typography>
           <Typography gutterBottom variant="h6" component="div">
-            {element.price}
+            ${element.price}
           </Typography>
         </CardContent>
       </CardActionArea>

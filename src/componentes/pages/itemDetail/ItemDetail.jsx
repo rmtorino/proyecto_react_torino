@@ -10,15 +10,7 @@ import {
 } from "@mui/material";
 import Counter from "../../common/counter/Counter";
 
-const ProductDetail = ({ productSelected }) => {
-  const onAdd = (cantidad) => {
-    let data = {
-      ...productSelected,
-      quiantity: cantidad,
-    };
-    console.log(data);
-  };
-
+const ProductDetail = ({ productSelected, onAdd, quantity }) => {
   return (
     <Grid container spacing={2}>
       <Grid item md={2}></Grid>
@@ -49,17 +41,17 @@ const ProductDetail = ({ productSelected }) => {
                   {productSelected.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {productSelected.subTitle}
+                  {productSelected.subtitle}
                 </Typography>
                 <Typography gutterBottom variant="h6" component="div">
-                  {productSelected.price}
+                  ${productSelected.price}
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
               <Counter
                 stock={productSelected.stock}
-                initial={1}
+                initial={quantity}
                 onAdd={onAdd}
               />
             </CardActions>
