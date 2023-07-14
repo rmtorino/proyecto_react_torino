@@ -12,7 +12,7 @@ const CheckoutContainer = () => {
 
   const [orderId, setOrderId] = useState(null);
 
-  let total = getTotalPrice;
+  let total = getTotalPrice();
 
   const { handleSubmit, handleChange, errors } = useFormik({
     initialValues: {
