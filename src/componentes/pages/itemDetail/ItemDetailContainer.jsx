@@ -13,7 +13,6 @@ const ItemDetailContainer = () => {
   const { id } = useParams();
 
   const quantity = getTotalQuantityBiId(id);
-  console.log("La cantidad es: ", quantity);
 
   const onAdd = (cantidad) => {
     let data = {

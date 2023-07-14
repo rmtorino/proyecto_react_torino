@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Skeleton from "@mui/material/Skeleton";
 import { Card, CardContent } from "@mui/material";
 
-export default function Animations() {
+const Loader = () => {
   return (
     <Grid container>
       <Grid item md={1.5}></Grid>
@@ -31,4 +31,6 @@ export default function Animations() {
       <Grid item md={1.5}></Grid>
     </Grid>
   );
-}
+};
+
+export default Loader;

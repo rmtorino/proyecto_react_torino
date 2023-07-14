@@ -2,7 +2,6 @@ export const products = [
   ///COlECCIONES
   {
     /// DOCUMENTOS
-    id: 1,
     brand: "LANCOME",
     title: "LA VIDA ES BELLA",
     subTitle: "EAU DE TOILETTE 100 ML",
@@ -16,7 +15,6 @@ export const products = [
     sub_category: "mujer",
   },
   {
-    id: 2,
     brand: "PACO RABANNE",
     title: "PHANTOM",
     subTitle: "EAU DE TOILETTE 100 ML",
@@ -30,7 +28,6 @@ export const products = [
     sub_category: "hombre",
   },
   {
-    id: 3,
     brand: "YVES SAINT LAURENT",
     title: "BLACK OPIUM",
     subTitle: "EAU DE TOILETTE 100 ML",
@@ -44,7 +41,6 @@ export const products = [
     sub_category: "mujer",
   },
   {
-    id: 4,
     brand: "CAROLINA HERRERA",
     title: "BAD BOY",
     subTitle: "EAU DE TOILETTE 100 ML",
@@ -58,7 +54,6 @@ export const products = [
     sub_category: "hombre",
   },
   {
-    id: 5,
     brand: "GIVENCHY",
     title: "PURE COLOR ENVY LUXE EYESHADOW",
     subTitle: " ",
@@ -72,7 +67,6 @@ export const products = [
     sub_category: "shadow",
   },
   {
-    id: 6,
     brand: "MAYBELLINE",
     title: "FIT ME MATTE PORELESS 16H",
     subTitle: " ",
@@ -86,7 +80,6 @@ export const products = [
     sub_category: "basel",
   },
   {
-    id: 7,
     brand: "MAYBELLINE",
     title: "LASH SENSATIONAL SKY HIGH WTP",
     subTitle: " ",
@@ -100,7 +93,6 @@ export const products = [
     sub_category: "rimmel",
   },
   {
-    id: 8,
     brand: "LANCOME",
     title: "LABIAL BRILLOSO",
     subTitle: " ",
@@ -114,9 +106,8 @@ export const products = [
     sub_category: "lipstick",
   },
   {
-    id: 9,
-    brand: "LANCOME",
-    title: "LABIAL BRILLOSO",
+    brand: "MELINE",
+    title: "ESMALTES",
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
@@ -125,12 +116,11 @@ export const products = [
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/meline4_e8ir6u.jpg",
     alt: "nail_image",
     category: "unias",
-    sub_category: "lipstick",
+    sub_category: "esmaltes",
   },
   {
-    id: 10,
-    brand: "LANCOME",
-    title: "LABIAL BRILLOSO",
+    brand: "CHERIMOYA",
+    title: "ACRILICO",
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
@@ -142,9 +132,8 @@ export const products = [
     sub_category: "lipstick",
   },
   {
-    id: 11,
-    brand: "LANCOME",
-    title: "LABIAL BRILLOSO",
+    brand: "CHERIMOYA",
+    title: "GEL DE CONSTRUCCION",
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
@@ -153,12 +142,11 @@ export const products = [
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/gel3_hqb7xe.jpg",
     alt: "nail_image",
     category: "unias",
-    sub_category: "lipstick",
+    sub_category: "construccion",
   },
   {
-    id: 12,
-    brand: "LANCOME",
-    title: "LABIAL BRILLOSO",
+    brand: "CHERIMOYA",
+    title: "REMOVEDOR DE ESMALTE",
     subTitle: " ",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ea, hic obcaecati, nam cupiditate eaque aliquid et voluptatum accusamus aliquam autem molestias sit perferendis, magnam ducimus nisi! Doloribus, dolores nesciunt.",
@@ -167,6 +155,6 @@ export const products = [
     img: "https://res.cloudinary.com/defldhv32/image/upload/v1686861837/removedor4_lyowkn.jpg",
     alt: "nail_image",
     category: "unias",
-    sub_category: "lipstick",
+    sub_category: "removedor",
   },
 ];

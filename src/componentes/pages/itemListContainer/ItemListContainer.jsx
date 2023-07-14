@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 //import Loader from "../../common/loader/Loader";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { dataBase } from "../../../firebaseConfig";
-// import { products } from "../../../productsMock";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);

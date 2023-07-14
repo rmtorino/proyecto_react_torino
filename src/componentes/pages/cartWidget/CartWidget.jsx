@@ -18,7 +18,6 @@ const CartWidget = () => {
   const { cart, clearCart, removeById, getTotalPrice } =
     useContext(CartContext);
   let total = getTotalPrice();
-  console.log(cart);
 
   const clearItems = () => {
     Swal.fire({
