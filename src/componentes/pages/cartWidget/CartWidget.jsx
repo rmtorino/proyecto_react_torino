@@ -41,18 +41,7 @@ const CartWidget = () => {
 
   return (
     <Grid container>
-      <Grid item md={2}>
-        <Box>
-          {cart.length > 0 && (
-            <Button onClick={clearItems}>Vaciar Carrito</Button>
-          )}
-          {cart.length > 0 && (
-            <Typography gutterBottom variant="h6" component="div">
-              TOTAL: ${total}
-            </Typography>
-          )}
-        </Box>
-      </Grid>
+      <Grid item md={2}></Grid>
       <Grid item md={8}>
         <Box
           display={"flex"}
@@ -106,6 +95,16 @@ const CartWidget = () => {
       </Grid>
       <Grid item md={2}>
         <Link to={"/checkout"}>
+          <Box>
+            {cart.length > 0 && (
+              <Button onClick={clearItems}>Vaciar Carrito</Button>
+            )}
+            {cart.length > 0 && (
+              <Typography gutterBottom variant="h6" component="div">
+                TOTAL: ${total}
+              </Typography>
+            )}
+          </Box>
           <Box>
             <Button>FINALIZAR COMPRA</Button>
           </Box>
